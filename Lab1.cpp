@@ -10,10 +10,10 @@ int main() {
     int i;
     int sum;
 
-    std::cout << "Введіть перше число: ";
+    std::cout << "Vvedit pershe chyslo: ";
     std::cin >> a;
 
-    std::cout << "Введіть друге число: ";
+    std::cout << "Vvedit druhe chyslo: ";
     std::cin >> b;
 
     sum = 0;
@@ -36,10 +36,11 @@ int main() {
         }
     }
 
-    std::cout << "Сума всіх парних чисел у діапазоні: " << sum << std::endl;
+    std::cout << "Suma vsikh parnykh chysel u diapazoni: " << sum << std::endl;
 
     return 0;
 }
+
 
 
 
