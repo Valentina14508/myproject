@@ -6,7 +6,7 @@ int main() {
     int d1, d2, d3, d4, d5, d6;
     int sum1, sum2;
 
-    std::cout << "Введіть 6-значний номер квитка: ";
+    std::cout << "Vvedit 6-znachnyi nomer kvytka: ";
     std::cin >> ticket;
 
     d6 = ticket % 10;
@@ -30,11 +30,12 @@ int main() {
     sum2 = d4 + d5 + d6;
 
     if (sum1 == sum2) {
-        std::cout << "Щасливий квиток" << std::endl;
+        std::cout << "Shchaslyvyi kvytok" << std::endl;
     } else {
-        std::cout << "Не щасливий квиток" << std::endl;
+        std::cout << "Ne shchaslyvyi kvytok" << std::endl;
     }
 
     return 0;
 
 }
+
