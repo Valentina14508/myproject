@@ -9,8 +9,9 @@ int main() {
         length = length + 1;
     }
 
-    std::cout << "Довжина: " << length << std::endl;
+    std::cout << "Dovzhyna:  " << length << std::endl;
 
     return 0;
 
 }
+
