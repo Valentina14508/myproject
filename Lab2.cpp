@@ -4,19 +4,20 @@
 int main() {
     int number;
 
-    std::cout << "Введіть число: ";
+    std::cout << "Vvedit chyslo: ";
     std::cin >> number;
 
     if (number > 0) {
-        std::cout << "Число додатнє" << std::endl;
+        std::cout << "Chyslo dodatnie" << std::endl;
     } else {
         if (number < 0) {
-            std::cout << "Число від’ємне" << std::endl;
+            std::cout << "Chyslo vidiemne" << std::endl;
         } else {
-            std::cout << "Нуль << std::endl;
+            std::cout << "Nul" << std::endl;
         }
     }
 
     return 0;
 
 }
+
